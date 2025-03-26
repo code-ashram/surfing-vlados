@@ -1,78 +1,69 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8"/>
-    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./src/style.scss">
-    <title>Surf</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style.scss">
+  <title>Surf</title>
 </head>
 <body>
 <div id="app">
-    <header class="header">
-        <div class="header__slider">
-            <div class="header__slider-item  slider__item">
-                <div class="slider__item-info">
-                    <div class="slider__item-info-subtitle subtitle-left">Surf</div>
-                    <div class="slider__item-info-title">North Shore</div>
-                    <div class="slider__item-info-subtitle subtitle-left">Condition</div>
-                    <div class="slider__item-info-text">Radical</div>
-                    <a href="#" class="slider__item-info-link">
-                        <img src="./src/images/arrows-right.svg" alt="">
-                    </a>
-                </div>
-            </div>
-                <div class="header__slider-item  slider__item">
-                    <div class="slider__item-info">
-                        <div class="slider__item-info-subtitle subtitle-left">Surf</div>
-                        <div class="slider__item-info-title">South Shore</div>
-                        <div class="slider__item-info-subtitle subtitle-left">Condition</div>
-                        <div class="slider__item-info-text">Radical</div>
-                        <a href="#" class="slider__item-info-link">
-                            <img src="./src/images/arrows-right.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="header__slider-item  slider__item">
-                    <div class="slider__item-info">
-                        <div class="slider__item-info-subtitle subtitle-left">Surf</div>
-                        <div class="slider__item-info-title">West Shore</div>
-                        <div class="slider__item-info-subtitle subtitle-left">Condition</div>
-                        <div class="slider__item-info-text">Radical</div>
-                        <a href="#" class="slider__item-info-link">
-                            <img src="./src/images/arrows-right.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="header__slider-item  slider__item">
-                    <div class="slider__item-info">
-                        <div class="slider__item-info-subtitle subtitle-left">Surf</div>
-                        <div class="slider__item-info-title">East Shore</div>
-                        <div class="slider__item-info-subtitle subtitle-left">Condition</div>
-                        <div class="slider__item-info-text">Radical</div>
-                        <a href="#" class="slider__item-info-link">
-                            <img src="./src/images/arrows-right.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-<!--        <div class="swiper">-->
-<!--            <div class="swiper-wrapper">-->
-<!--                <div class="swiper-slide">Slide 1</div>-->
-<!--                <div class="swiper-slide">Slide 2</div>-->
-<!--                <div class="swiper-slide">Slide 3</div>-->
-<!--            </div>-->
-<!--            &lt;!&ndash; Pagination &ndash;&gt;-->
-<!--            <div class="swiper-pagination"></div>-->
-<!--            &lt;!&ndash; Navigation buttons &ndash;&gt;-->
-<!--            <div class="swiper-button-next"></div>-->
-<!--            <div class="swiper-button-prev"></div>-->
-<!--        </div>-->
+  <header class="header">
+    <div class="header__slider swiper">
+      <div class="swiper-wrapper">
+        <div class="header__slider-item  slider__item swiper-slide">
+          <div class="slider__item-info">
+            <div class="slider__item-info-subtitle subtitle-left">Surf 1</div>
+            <div class="slider__item-info-title">North Shore</div>
+            <div class="slider__item-info-subtitle subtitle-left">Condition</div>
+            <div class="slider__item-info-text">Radical</div>
+            <a href="#" class="slider__item-info-link">
+              <img src="./src/images/arrows-right.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="header__slider-item  slider__item swiper-slide">
+          <div class="slider__item-info">
+            <div class="slider__item-info-subtitle subtitle-left">Surf</div>
+            <div class="slider__item-info-title">South Shore</div>
+            <div class="slider__item-info-subtitle subtitle-left">Condition</div>
+            <div class="slider__item-info-text">Radical</div>
+            <a href="#" class="slider__item-info-link">
+              <img src="./src/images/arrows-right.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="header__slider-item  slider__item swiper-slide">
+          <div class="slider__item-info">
+            <div class="slider__item-info-subtitle subtitle-left">Surf</div>
+            <div class="slider__item-info-title">West Shore</div>
+            <div class="slider__item-info-subtitle subtitle-left">Condition</div>
+            <div class="slider__item-info-text">Radical</div>
+            <a href="#" class="slider__item-info-link">
+              <img src="./src/images/arrows-right.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="header__slider-item  slider__item swiper-slide">
+          <div class="slider__item-info">
+            <div class="slider__item-info-subtitle subtitle-left">Surf</div>
+            <div class="slider__item-info-title">East Shore</div>
+            <div class="slider__item-info-subtitle subtitle-left">Condition</div>
+            <div class="slider__item-info-text">Radical</div>
+            <a href="#" class="slider__item-info-link">
+              <img src="./src/images/arrows-right.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </header>
 
 
-
-    </header>
 </div>
 <script type="module" src="/src/main.js"></script>
 </body>
